@@ -1,6 +1,4 @@
-Sure! Here's a README.md file template for the MarathiPDFSummarizer project:
-
----
+![Favicon](/static/favicon.ico)
 
 # MarathiPDFSummarizer
 
