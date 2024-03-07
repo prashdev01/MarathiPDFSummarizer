@@ -48,15 +48,6 @@ python app.py
 
 4. View the generated summary and extracted keywords for the uploaded PDF.
 
-## Contributing
-
-Contributions to MarathiPDFSummarizer are welcome! To contribute, follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them with descriptive messages.
-4. Push your changes to your fork.
-5. Submit a pull request to the main repository.
 
 ## License
 
