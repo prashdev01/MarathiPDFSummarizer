@@ -1,0 +1,24 @@
+{% include 'base.html' %}
+<title>QR Code Generator</title>
+</head>
+
+<body>
+    <div class="hero-section">
+        <div class="card">
+            <img src="{{ url_for('static', filename='qrcode.png') }}" alt="qr code">
+            
+            <!-- <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button> -->
+            <a class="btn btn-primary btn-lg btn-block" id="download-btn"
+                href="{{ url_for('static', filename='qrcode.png') }}" download="qrcode.png">Download QR Code</a>
+
+            <!-- Calculator UI -->
+        </div>
+    </div>
+    {% include 'about.html' %}
+    <div class="contact-us" id="contact">
+        {% include 'contactus.html' %}
+    </div>
+    {% include 'footer.html' %}
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+  <title>{% block title %} MarathiPdfSummerizer {% endblock title %}  </title>
+</head>
+<div class="background-image">
+  <div class="context">
+</div>
+
+
+<div class="area" >
+        <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+        </ul>
+</div >
+</div>
+<div class="navbar" style="position: fixed;">
+  <div class="navbar-logo">
+    <a href="{{ url_for('index') }}">
+      <img src="{{ url_for('static', filename='favicon.ico') }}" alt="Your Logo">
+      MarathiPdfSummerizer
+  </a>
+  </div>
+  <div class="a-tags">
+      <a href="{{ url_for('index') }}">Home</a>
+      <a href="#about">About</a>
+
+      <a href="#contact">Contact US</a>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </div>
+</div>
