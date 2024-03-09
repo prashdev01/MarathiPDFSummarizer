@@ -12,9 +12,9 @@
                         </svg>
                         <p>Drag and Drop</p>
                         <p>or</p>
+                        <input id="pdf" type="file" name="pdf_file" accept=".pdf"  />
                         <span class="browse-button">Browse file</span>
                     </div>
-                    <input id="pdf" type="file" name="pdf" accept=".pdf" style="display: none;" />
                 </label>
             </div>
             <button id="submitBtn" class="button" type="submit" disabled>
@@ -58,22 +58,13 @@
                 }
             }
         </script>
-        
-        
-              
-              
-
-
         </div>
     </div>
+    {% include 'result.html' %}
 
     {% include 'about.html' %}
 
     <div class="contact-us" id="contact">
-
         {% include 'contactus.html' %}
     </div>
     {% include 'footer.html' %}
-</body>
-
-</html>
